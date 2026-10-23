@@ -114,7 +114,8 @@ I test only systems I own or have explicit permission to assess, follow program 
 ## `> connect`
 
 - **GitHub:** [@CHITASTAR59](https://github.com/CHITASTAR59)
-- **LinkedIn:** [Add your LinkedIn profile URL here](https://www.linkedin.com/in/babu-ram-sharma-482527350/)
+- **LinkedIn:** [@CHITASTAR59](https://www.linkedin.com/in/babu-ram-sharma-482527350/)
+- **Discord:** [@CHITASTAR59](https://discord.com/users/1376608909766430730)
 
 ---
 
