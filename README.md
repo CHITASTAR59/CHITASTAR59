@@ -1,4 +1,5 @@
 <div align="center">
+<img src="assets/chitastar-banner.svg" alt="CHITASTAR | Cybersecurity Researcher" width="100%">
 
 <img src="assets/chitastar-banner.svg" alt="CHITASTAR | Cybersecurity Researcher" width="100%">
 
