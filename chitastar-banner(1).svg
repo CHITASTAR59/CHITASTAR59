@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="430" viewBox="0 0 1500 430">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#030609"/>
+    <stop offset="55%" stop-color="#0b1019"/>
+    <stop offset="100%" stop-color="#16070d"/>
+  </linearGradient>
+  <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#fb7185"/>
+    <stop offset="50%" stop-color="#ef4444"/>
+    <stop offset="100%" stop-color="#991b1b"/>
+  </linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <path d="M36 0H0V36" fill="none" stroke="#263244" stroke-width="1" opacity=".42"/>
+  </pattern>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="1500" height="430" rx="18" fill="url(#bg)"/>
+<rect width="1500" height="430" rx="18" fill="url(#grid)"/>
+<g fill="none" stroke="#ef4444" opacity=".28">
+  <path d="M0 325H180L220 285H330M1170 65H1300L1340 105H1500" stroke-width="2"/>
+  <path d="M0 345H150L195 300H320M1190 85H1280L1330 130H1500" stroke-width="1"/>
+  <circle cx="1300" cy="220" r="115" stroke-width="2"/>
+  <circle cx="1300" cy="220" r="82" stroke-width="1"/>
+  <circle cx="1300" cy="220" r="48" stroke-width="1"/>
+  <path d="M1185 220H1415M1300 105V335" stroke-width="1"/>
+</g>
+<g fill="#f87171" opacity=".75">
+  <circle cx="180" cy="92" r="3"/><circle cx="215" cy="92" r="3"/><circle cx="250" cy="92" r="3"/>
+  <circle cx="1150" cy="340" r="3"/><circle cx="1185" cy="340" r="3"/><circle cx="1220" cy="340" r="3"/>
+</g>
+<g font-family="monospace" fill="#94a3b8" font-size="15" opacity=".8">
+  <text x="70" y="55">[ AUTHORIZED SECURITY RESEARCH ]</text>
+  <text x="70" y="385">WEB2 / WEB3  •  APPLICATION SECURITY  •  VULNERABILITY RESEARCH</text>
+  <text x="1120" y="55">STATUS: LEARNING / RESEARCH</text>
+</g>
+<g filter="url(#glow)">
+  <text x="70" y="190" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800" letter-spacing="5" fill="#f8fafc">CHITA</text>
+  <text x="365" y="190" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800" letter-spacing="5" fill="url(#red)">STAR</text>
+</g>
+<rect x="73" y="216" width="590" height="3" fill="url(#red)"/>
+<text x="74" y="260" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="3" fill="#e2e8f0">CYBERSECURITY RESEARCHER</text>
+<text x="74" y="300" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="1.2" fill="#cbd5e1">ETHICAL HACKING  /  BUG BOUNTY  /  PENETRATION TESTING</text>
+<g transform="translate(1040 145)" stroke="#fb7185" fill="none" stroke-width="2" opacity=".9">
+  <path d="M0 0L70 -40L140 0V80L70 120L0 80Z"/>
+  <path d="M28 16L70 -8L112 16V64L70 88L28 64Z"/>
+  <path d="M55 30L70 20L85 30V50L70 60L55 50Z"/>
+</g>
+<text x="1110" y="292" font-family="monospace" font-size="13" fill="#fca5a5" text-anchor="middle">DETECT • ANALYZE • REPORT</text>
+</svg>
